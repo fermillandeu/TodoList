@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bf2eee26ba.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>To do list</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="box">
+            <div class="contenido">
+                <div class="titulo">
+                    <h1>Todo List</h1>
+                    <hr>
+                </div>
+                <div class="tarea">
+                    <h6>Nueva Tarea</h6>
+                </div>
+                <div class="inicio">
+                    <input class="descripcion" type="text" placeholder="Nueva tarea">
+                    <button type="button" class="btn btn-success boton-agregar">Agregar</button>
+                </div>
+                <div class="fin">
+                    <div class="total">
+                        <div>
+                            <p>Total: <span class="total-span"></span></p>
+                        </div>
+                        <div class="hechas-div">
+                            <p>Realizadas: <span class="realizadas-span"></span></p>
+                        </div>
+                    </div>
+                    <div class="tabla">
+                        <table>
+                            <thead class="nueva-tarea">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Tarea</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="lista-tareas">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
